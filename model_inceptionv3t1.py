@@ -20,12 +20,12 @@ IMAGE_SIZE = [224, 224]
 
 # Define paths to training and validation data 
 
-train_path = "C:/Users/Saiku/OneDrive/Documents/Dataset/Train" 
-valid_path = "C:/Users/Saiku/OneDrive/Documents/Dataset/Test"
+train_path = "train_path" 
+valid_path = "valid_path"
 
 # Define model saving path 
 
-save_dir = "C:/Users/Saiku/Downloads/models.h5"
+save_dir = "C:/Users/Downloads/models.h5"
 
 # Load InceptionV3 model pretrained on ImageNet without the top layer 
 inception = InceptionV3(input_shape=IMAGE_SIZE + [3], weights='imagenet', 
